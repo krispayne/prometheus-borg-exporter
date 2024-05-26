@@ -2,7 +2,8 @@
 Description=Prometheus Borg Exporter Timer
 
 [Timer]
-OnCalendar=daily
+OnBootSec=10min
+OnUnitActiveSec=1h
 
 [Install]
 WantedBy=timers.target
