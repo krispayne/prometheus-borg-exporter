@@ -3,6 +3,7 @@ Description=Prometheus Borg Exporter Timer
 
 [Timer]
 OnBootSec=10min
+OnActiveSec=1min
 OnUnitActiveSec=1h
 
 [Install]
